@@ -4,7 +4,7 @@
 class StudentAuth {
     constructor() {
         this.currentStudent = null;
-        this.apiBaseUrl = 'http://localhost:3002/api';
+        this.apiBaseUrl = window.location.origin + '/api';
         this.dataLoaded = true; // API is always available
     }
 
