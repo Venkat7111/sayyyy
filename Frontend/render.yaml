@@ -3,6 +3,7 @@ services:
     name: student-marks-system
     env: node
     plan: free
+    rootDir: .
     buildCommand: npm install
     startCommand: npm start
     envVars:
